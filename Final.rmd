@@ -246,4 +246,31 @@ The table shows that 91.67% of drug users who contracted COVID-19 had also recei
 
 
 
+##Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+The p-value from the chi-squared test is 0.0000000001414, which is far below the 0.05 threshold, so we reject the null hypothesis. However, despite this strong statistical significance, the results indicate that the vaccine may have limited effectiveness in this particular group.
+
+
+```{r}
+guysfish <- fisher.test(table1)
+guysfish
+```
+
+```{r}
+low <- (guysfish$conf.int[1] / (guysfish$conf.int[1] + 1)) * 100
+hi <- (guysfish$conf.int[2] / (guysfish$conf.int[2] + 1)) * 100
+options(digits=2)
+```
+
+
+
+
+
 # Overall Results and Conclusions
