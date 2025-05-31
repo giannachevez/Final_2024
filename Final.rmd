@@ -107,6 +107,15 @@ Females = FinalData[FinalData$sex=='F',]
 head(Females)
 ```
 
+## Graphical Results
+
+```{r}
+barchartGC(~infected + treatment,data=Females)
+barchartGC(~infected + treatment,data=Females, type="percent")
+```
+
+The bar graph shows that the vaccine is more effective in women, as fewer women who received the vaccine contracted COVID-19 compared to those who received the placebo.
+
 
 
 
