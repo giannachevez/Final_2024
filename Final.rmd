@@ -96,6 +96,19 @@ Overall, the data provide compelling evidence that the vaccine is a beneficial a
 
 ## Females
 
+##Methods  
+
+$H_0$: The preventative vaccine does not exhibit its effective in females        
+$H_A$: The preventative vaccine exhibits its effective in females.  
+Cat~Cat.
+
+```{r}
+Females = FinalData[FinalData$sex=='F',]
+head(Females)
+```
+
+
+
 
 ## LGBTQ
 
