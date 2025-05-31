@@ -141,6 +141,22 @@ The p-value from the test is 0.00000001914, which is well below the 0.05 signifi
 
 
 
+```{r}
+guysfish <- fisher.test(table1)
+guysfish
+```
+
+```{r}
+low <- (guysfish$conf.int[1] / (guysfish$conf.int[1] + 1)) * 100
+hi <- (guysfish$conf.int[2] / (guysfish$conf.int[2] + 1)) * 100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+The p-value from Fisher’s exact test was 1e-08, which is well below the standard 0.05 threshold. As a result, we reject the null hypothesis, indicating that the vaccine is effective for females as well. The odds ratio is 1.9, suggesting that vaccinated women were nearly twice as likely to avoid contracting COVID-19 compared to those who received the placebo.
+
+Additionally, the 95% confidence interval ranges from 1.5 to 2.3. Because the entire interval lies above 1, it provides further evidence that the vaccine has a statistically significant protective effect. Overall, these findings suggest that the vaccine is a beneficial and effective option for women.
 
 
 ## LGBTQ
