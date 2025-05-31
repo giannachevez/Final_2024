@@ -232,5 +232,18 @@ The bar graph shows that the vaccine appears to be less effective in individuals
 
 
 
+##Numerical Results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=DrugUser)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+
+The table shows that 91.67% of drug users who contracted COVID-19 had also received the vaccine. While this may initially suggest that the vaccine is less effective among individuals who use drugs, this observation alone does not account for factors such as sample size, overall vaccination rates in the group, or potential confounding variables. Further statistical analysis would be needed to draw reliable conclusions about vaccine effectiveness in this subgroup.
+
+
 
 # Overall Results and Conclusions
