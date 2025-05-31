@@ -26,6 +26,18 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 
 ## Males
 
+Is the Covid vaccine effective  in males?
+
+$H_0$: The new preventative vaccine (Covid921) does not exhibit any effectiveness  on males.  
+$H_A$: The new preventative vaccine (Covid921) does exhibit effectiveness on male.
+
+cat-cat
+
+```{r}
+Males = FinalData[FinalData$sex=='M',]
+head(Males)
+```
+
 
 ## Females
 
