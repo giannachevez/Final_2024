@@ -128,6 +128,18 @@ colPerc(table1)
 The numerical results show that approximately 35.07% of women who received the vaccine contracted COVID-19, compared to 64.93% of women who received the placebo. This indicates that the vaccine is effective in reducing COVID-19 cases among women.
 
 
+##Inferential Results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
+The p-value from the test is 0.00000001914, which is well below the 0.05 significance threshold. Therefore, we reject the null hypothesis, providing strong evidence of the vaccine’s effectiveness in women. The odds ratio from Fisher’s exact test is 1.856, indicating that women who received the vaccine were approximately 1.86 times less likely to contract COVID-19 compared to those who received the placebo.
+
+
 
 
 
