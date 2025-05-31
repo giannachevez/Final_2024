@@ -271,6 +271,25 @@ options(digits=2)
 
 
 
-
-
 # Overall Results and Conclusions
+
+Effectiveness of the Vaccine Across Different Groups
+Men:
+Based on the data, the vaccine appears to be highly effective for men. The table shows that only 26.2% of men who received the vaccine contracted COVID-19, compared to 73.8% of men who received the placebo—a substantial and clinically meaningful difference. The p-value associated with this comparison is 2.2 × 10⁻¹⁶, which is far below the 0.05 significance threshold, leading us to reject the null hypothesis. This provides very strong evidence that the vaccine has a real protective effect in men. The odds ratio of approximately 2.8 indicates that vaccinated men were about 2.8 times more likely to avoid infection compared to men who received the placebo. Overall, these results suggest the vaccine is a reliable and effective preventive measure for men.
+
+
+Women: 
+The vaccine also shows clear effectiveness for women. Among women who contracted COVID-19, 35.07% had received the vaccine, whereas 64.93% had received the placebo, reflecting a meaningful reduction in infection rates due to vaccination. The p-value for this group was 1.914 × 10⁻⁸, which is well below 0.05, allowing rejection of the null hypothesis and supporting the vaccine’s benefit. The odds ratio of approximately 1.86 suggests that vaccinated women were significantly less likely to contract COVID-19 than unvaccinated women. Thus, the vaccine appears to be an effective preventive option for women as well.
+
+LGBTQ Individuals:
+For LGBTQ individuals, the data indicate strong vaccine effectiveness. Only 20% of LGBTQ people who contracted COVID-19 had been vaccinated, compared to 80% who received the placebo, demonstrating a substantial protective effect. The p-value of 2.266 × 10⁻⁶ is far below the 0.05 threshold, again rejecting the null hypothesis. The odds ratio from Fisher’s exact test was 4.27, meaning vaccinated LGBTQ individuals were more than four times as likely to avoid COVID-19 infection compared to those who received the placebo. These findings suggest the vaccine is highly effective for this group.
+
+
+Individuals Who Use Drugs:
+In contrast, the vaccine appears to be less effective among individuals who use drugs. The table shows an unexpected pattern: 91.67% of drug users who contracted COVID-19 had been vaccinated, while only 8.33% had received the placebo. This inverse trend suggests limited vaccine protection in this subgroup. The p-value was 1.414 × 10⁻¹⁰, which is statistically significant, so we reject the null hypothesis; however, the outcome is opposite to that seen in other groups. The odds ratio of 0.087 indicates that vaccinated drug users were much less likely to avoid infection, implying that the vaccine may not provide strong protection for individuals who use drugs. Further research is needed to understand the underlying reasons for this finding, such as potential confounders, differences in immune response, or behavioral factors.
+
+Summary:
+Across most groups—men, women, and LGBTQ individuals—the vaccine demonstrates strong, statistically significant effectiveness in reducing COVID-19 infections. However, the data suggest that vaccine effectiveness may be limited among drug users, highlighting the need for targeted investigation and possibly additional interventions for this population.
+
+
+
