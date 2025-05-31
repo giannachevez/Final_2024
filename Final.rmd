@@ -173,7 +173,14 @@ head(gay)
 ```
 
 
+#Graphical Results 
 
+```{r}
+barchartGC(~infected + treatment,data=gay)
+barchartGC(~infected + treatment,data=gay, type="percent")
+```
+
+The bar graph indicates that the vaccine is effective in preventing COVID-19 among individuals who identify as LGBTQ.
 
 
 
