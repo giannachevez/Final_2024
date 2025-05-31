@@ -270,6 +270,12 @@ options(digits=2)
 ```
 
 
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+
+The p-value is 1e-08, which is exceptionally low and far below the conventional significance threshold of 0.05. Because of this, we reject the null hypothesis that there is no difference in the odds of contracting COVID-19 between vaccinated and unvaccinated individuals. This strong statistical evidence suggests that vaccination status has a significant impact on the likelihood of infection. In other words, whether or not a person received the vaccine is strongly associated with their risk of contracting COVID-19, highlighting the effectiveness of the vaccine in reducing infection rates.
+
+
 
 # Overall Results and Conclusions
 
