@@ -209,5 +209,17 @@ The p-value from the test is 0.000002266, which is well below the 0.05 significa
 
 ## Druggies
 
+##Methods  
+
+$H_0$ The preventative vaccine does not exhibit its effective in people who are drug users.    
+$H_A$ The preventative vaccine exhibits its effective in people who are drug users.  
+
+Cat~Cat
+
+```{r}
+DrugUser = FinalData[FinalData$DrugUser=='yes',]
+```
+
+
 
 # Overall Results and Conclusions
