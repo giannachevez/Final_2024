@@ -73,6 +73,25 @@ fisher.test(table1)
 
 The p-value from the test is 0.00000000000000022, which is less than 0.05, so we must reject the null hypothesis. The odds ratio from Fisher’s exact test was 2.815, indicating that the vaccine is approximately 2.8 times more effective in men.
 
+```{r}
+guysfish <- fisher.test(table1)
+guysfish
+```
+
+
+```{r}
+low <- (guysfish$conf.int[1] / (guysfish$conf.int[1] + 1)) * 100
+hi <- (guysfish$conf.int[2] / (guysfish$conf.int[2] + 1)) * 100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+The p-value from Fisher’s exact test is effectively zero—well below the conventional 0.05 threshold. As a result, we reject the null hypothesis, providing strong evidence that the vaccine is effective in males.
+
+The odds ratio is 2.81, indicating that men who received the vaccine were nearly three times less likely to contract COVID-19 compared to those who received the placebo. Additionally, the 95% confidence interval ranges from 2.21 to 3.61. Since the entire interval is above 1, this further supports the conclusion that the vaccine significantly reduces the risk of infection.
+
+Overall, the data provide compelling evidence that the vaccine is a beneficial and effective intervention for men.
 
 
 ## Females
