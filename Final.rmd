@@ -161,6 +161,20 @@ Additionally, the 95% confidence interval ranges from 1.5 to 2.3. Because the en
 
 ## LGBTQ
 
+##Methods  
+$H_0$ The preventative vaccine does not exhibit its effective in people who are LGBTQ.        
+$H_A$ The preventative vaccine exhibits its effective in people who are LGBTQ. 
+
+Cat~Cat
+
+```{r}
+gay = FinalData[FinalData$LGBTQ=='gay',]
+head(gay)
+```
+
+
+
+
 
 
 ## Druggies
